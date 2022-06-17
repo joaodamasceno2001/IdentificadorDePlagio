@@ -12,8 +12,8 @@
     "plagiarism",
     "checker"
   ],
-  "author": "Prasun Das",
-  "license": "MIT",
+  "author": "UNIFG",
+  "license": "UNIFG",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
