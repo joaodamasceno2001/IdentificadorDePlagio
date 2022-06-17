@@ -112,7 +112,7 @@
 
         <% result.forEach((r, i)=> { %> <% if (r.url) { %>
         <a
-          href="<%= r.url %>"
+          href="<%= r.url.substring( r.url.lastIndexOf("https://"), r.url.lastIndexOf("&ved")) %>"
           target="_blank"
           data-toggle="tooltip"
           data-placement="top"
